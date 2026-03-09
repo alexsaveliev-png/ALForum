@@ -14,7 +14,7 @@
     />
     <style>
       :root {
-        --bg: url("img/ALF.jpeg") center/cover no-repeat;
+        --bg: #0a0a0f;
         --surface: #13131a;
         --surface2: #1c1c28;
         --accent: #e8ff5a;
@@ -1433,8 +1433,7 @@
         <div class="map-info">
           <div class="venue-name">Центр Digital Hub</div>
           <div class="venue-address">
-            г. Москва, ул. Технологическая, 42, стр. 2<br />Зал «Горизонт», 3-й
-            этаж
+            г. Москва, пр-кт Андропова, 18, к. 6<br />Конференц-зал 1-й этаж
           </div>
 
           <div class="transport-grid">
@@ -1442,14 +1441,14 @@
               <div class="transport-icon">🚇</div>
               <div class="transport-title">Метро</div>
               <div class="transport-desc">
-                «Технопарк» (фиолетовая), 5 мин пешком
+                «Технопарк» (зеленая), 5 мин пешком
               </div>
             </div>
             <div class="transport-item">
               <div class="transport-icon">🚌</div>
               <div class="transport-title">Автобус</div>
               <div class="transport-desc">
-                № 42, 107, 219 до ост. «Инновационный центр»
+                № 42, 107, 219 до ост. «Технопарк»
               </div>
             </div>
             <div class="transport-item">
@@ -1736,7 +1735,7 @@
       }
 
       function openMaps() {
-        const url = "https://yandex.ru/maps/?text=Технологическая+42+Москва";
+        const url = "https://yandex.com/maps/-/CDVyMZ0F";
         if (window.Telegram && window.Telegram.WebApp) {
           window.Telegram.WebApp.openLink(url);
         } else {
